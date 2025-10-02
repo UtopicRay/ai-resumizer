@@ -108,10 +108,10 @@ form {
     @apply flex flex-col gap-2 w-full items-start;
   }
 
-  .uplader-drag-area {
+  .uploader-drag-area {
     @apply relative p-8 text-center transition-all duration-700 cursor-pointer bg-white rounded-2xl min-h-[208px];
   }
-  .uploader-selected-file {
+  .c {
     @apply flex items-center justify-between p-3 bg-gray-50 rounded-2xl;
   }
 }

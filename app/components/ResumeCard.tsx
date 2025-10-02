@@ -13,8 +13,8 @@ export default function ResumeCard({ resume: { id, imagePath, companyName, jobTi
                     <ScoreCircle score={feedback.overallScore}></ScoreCircle>
                 </div>
             </div>
-            <div className="gradient-border animate-in fade-in duration-1000">
-                <div className="w-100 h-100">
+            <div className="gradient-border animate-in fade-in duration-1000 w-full">
+                <div className="w-full h-full">
                 <img src={imagePath} alt="resume" className="max-sm:h-[200px] w-full h-[350px] object-cover object-top" />
                 </div>
             </div>
